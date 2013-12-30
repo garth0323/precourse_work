@@ -1,14 +1,3 @@
-# I = 1
-# V = 5
-# X = 10
-# L = 50
-# C= 100
-# D = 500
-# M = 1000
-# 3999 should return MMM CM XC IX
-# 3444 should return MMM CD XL IV
-# 9 should return IX
-# 4 should return IV
 
 def modern_roman_numeral num
   
@@ -93,5 +82,5 @@ def modern_roman_numeral num
     puts "#{num_stored} is #{numeral} in modern style Roman."
 end
 
-modern_roman_numeral 1954
+modern_roman_numeral 3999
  
