@@ -1,12 +1,10 @@
-#array values in a hash
+#Can hash values be arrays?
 arr = [1,2,3]
 num = [3,4,5]
 
 h = { a:arr, b:num[2] }
 
-#hash values in an array, not sure this is possible.
-#can push a hash into an array.
+#Can you have an array of hashes?
 
-hash = { sister:"Regina", brother:"Matt" }
-array = []
-array.push(hash)
+family = [{ sister:"Regina", brother:"Matt" }, {mom:"Teresa", dad:"Charlie"}]
+
