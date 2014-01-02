@@ -37,7 +37,7 @@ else
 end
 
 #code I added to check if file exists and exit program if it does.
-if new_name.exist?
+if File.exist?(new_name)
   puts "#{new_name} already exists and continuing will erase files on your computer."
   exit
 end
