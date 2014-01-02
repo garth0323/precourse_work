@@ -1,3 +1,7 @@
+
+Dir.chdir 'C:/Documents and Settings/Katy/PictureInbox'
+
+
 # First we find all of the pictures to be moved.
 
 pic_names = Dir['F:/**/*.{JPG,jpg}' ]
