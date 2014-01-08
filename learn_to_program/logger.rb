@@ -10,6 +10,6 @@ log 'outside' do
   
   log 'inside' do
     puts "I like Thai Food!"
-  end
-  
+  end 
 end
+

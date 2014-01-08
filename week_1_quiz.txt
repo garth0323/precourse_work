@@ -1,0 +1,18 @@
+1. a = 1
+
+2. Array is a numbered set of data points, a hash is data the is tied to keywords of keys.
+
+3.  arr = [1, 2, 3, 3] 1233
+    [1, 2, 3, 3].uniq 1233
+    [1, 2, 3, 3].uniq! 123 (this one mutates arr)
+    
+4. select method calls on only certain parts of an array and puts them in a new array. i.e. all numbers divisible by 3.
+   map method calls each item in an array and allows you to manipulate it and makes a new array with results. i.e. make new array turn all integers into strings.
+   
+5. hash = { 'string' => 'key' }
+
+6. "no way!" (trick question and it was late)
+
+7. x = 4
+
+8. error
